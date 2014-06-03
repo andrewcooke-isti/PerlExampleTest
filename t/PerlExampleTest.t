@@ -28,7 +28,7 @@ my $argumentTestCall1 = PerlExampleTest::argumentTest();
 is($argumentTestCall1, "null", "argumentTest() IS null test");
 
 # Test argumentTest("true") 
-my $argumentTestCall2 = PerlExampleTest::argumentTest("true");
+my $argumentTestCall2 = PerlExampleTest::argumentTest("cabbage");
 is($argumentTestCall2, "true", "argumentTest() IS true test");
 
 # Test argumentTest("false") 
